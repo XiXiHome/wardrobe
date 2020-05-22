@@ -1,6 +1,7 @@
 ## 欢迎来到 西嘻衣橱 主页！
 
 ![image](http://cbu01.alicdn.com/img/ibank/2020/731/689/15693986137_1537626798.220x220.jpg)
+![image](https://cbu01.alicdn.com/img/ibank/2020/691/900/15631009196_1537626798.400x400.jpg)
 
 You can use the [editor on GitHub](https://github.com/XiXiHome/wardrobe/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
