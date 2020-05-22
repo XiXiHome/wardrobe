@@ -1,4 +1,6 @@
-## Welcome to GitHub Pages
+## 欢迎来到 西嘻衣橱 主页！
+
+![image][http://cbu01.alicdn.com/img/ibank/2020/731/689/15693986137_1537626798.220x220.jpg]
 
 You can use the [editor on GitHub](https://github.com/XiXiHome/wardrobe/edit/master/index.md) to maintain and preview the content for your website in Markdown files.
 
