@@ -24,8 +24,27 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 
 <style type="text/css">
 /*** guide ***/
-.guide{width:60px;margin-left:570px;position:fixed;left:50%;bottom:134px;_position:absolute;_top:expression(documentElement.scrollTop+documentElement.clientHeight - this.clientHeight - 134+'px');display:block;}
-.guide a{display:block;width:60px;height:50px;background:url(images/sprite_v2.png) no-repeat;margin-top:10px;text-decoration:none;font:16px/50px "Microsoft YaHei";text-align:center;color:#fff;border-radius:2px;}
+.guide{
+	width:60px;
+	margin-left:570px;
+	position:fixed;
+	left:0%;
+	bottom:134px;
+	_position:right;
+	_top:expression(documentElement.scrollTop+documentElement.clientHeight - this.clientHeight - 134+'px');
+	display:block;
+	}
+.guide a{
+	display:block;
+	width:60px;
+	height:50px;
+	background:url(images/sprite_v2.png) no-repeat;
+	margin-top:10px;
+	text-decoration:none;
+	font:16px/50px "Microsoft YaHei";
+	text-align:center;
+	color:#fff;
+	border-radius:2px;}
 .guide a span{display:none;text-align:center;}
 .guide a:hover{text-decoration:none;background-color:#39F;color:#fff;}
 .guide a:hover span{display:block;width:60px;background:#39F}
@@ -38,38 +57,8 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 </head>
 <body>
  <div class="wrap"> 	
-     
-	    <div class="header-bottom">
-	       <div class="header">
- 			
-   			<div class="logo"><a href="index.html"><img src="./images/xi.png" alt="" /></a></div>
-            
-	   </div>
-    <script type="text/javascript" src="./js/script.js"></script>
-    <script type="text/javascript">
-    
-        $('.search').hide();
-        $('button').click(function (){
-            $('.search').show();
-            $('.text').focus();
-        }
-        );
-        $('.close').click(function(){
-            $('.search').hide();
-        });
-    </script>
-	 <ul class="megamenu skyblue">
-			<li class="active grid"><a href="index.html" style="font-size: 18px;">主页</a></li>
-			<li><a class="color4" href="#" style="font-size: 18px;">春季の衣裙</a>
-				</li>				
-				<li><a class="color5" href="#" style="font-size: 18px;">夏季の衣裙</a>
-				</li>
-				<!--<li><a class="color6" href="#" style="font-size: 18px;">秋</a></li>-->
-				<!--<li><a class="color7" href="#" style="font-size: 18px;">冬</a></li>-->
-			</ul>
-		</div>
     <!-- start slider -->
-    <div id="fwslider">
+    <div id="fwslider" style="margin-top:5px;">
         <div class="slider_container">
             <div class="slide"> 
                 <!-- Slide image -->
@@ -115,14 +104,13 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 			  	<a href="summer/2020year/2023A.html">
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/691/900/15631009196_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/691/900/15631009196_1537626798.600x600.jpg" alt=""/>
 					</div>
                     <div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
 					   <div class="cart-left">
 							<p class="title" style="font-size: 13px;">森女风小黑裙</p>
 							<div class="price1">
-							  <!--<span class="reducedfrom">¥ 66.00</span>-->
 							  <span class="actual">¥ 53</span>
 							</div>
 						</div>
@@ -134,22 +122,21 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/5070.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/018/361/15676163810_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/848/064/15566460848_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/384/061/15676160483_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/493/691/15676196394_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/247/634/15566436742_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/018/361/15676163810_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/848/064/15566460848_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/384/061/15676160483_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/493/691/15676196394_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/247/634/15566436742_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/018/361/15676163810_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/018/361/15676163810_1537626798.600x600.jpg" alt=""/>
 					</div>
 					<div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
 					   <div class="cart-left">
 							<p class="title" style="font-size: 13px;">蕾丝彩虹裙</p>
 							<div class="price1">
-							  <!--<span class="reducedfrom">¥ 66.00</span>-->
 							  <span class="actual">¥ 49</span>
 							</div>
 						</div>
@@ -161,15 +148,15 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/C6585.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/804/525/15624525408_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/139/696/15734696931_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/363/315/15624513363_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/589/894/15624498985_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/320/825/15624528023_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/804/525/15624525408_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/139/696/15734696931_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/363/315/15624513363_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/589/894/15624498985_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/320/825/15624528023_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/804/525/15624525408_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/804/525/15624525408_1537626798.600x600.jpg" alt=""/>
 					</div>
 					<div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <!--<div class="sale-box1"><span class="on_sale title_shop">Sale</span></div>	-->
@@ -189,15 +176,15 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/5069.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/543/923/15693329345_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/285/113/15693311582_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/835/869/15583968538_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/261/053/15693350162_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/549/024/15631420945_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/543/923/15693329345_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/285/113/15693311582_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/835/869/15583968538_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/261/053/15693350162_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/549/024/15631420945_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/543/923/15693329345_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/543/923/15693329345_1537626798.600x600.jpg" alt=""/>
 					</div>
 					<div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -216,15 +203,15 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/5057.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/420/868/14730868024_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/994/217/14690712499_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/986/167/14784761689_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/347/257/14784752743_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/725/727/14690727527_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/420/868/14730868024_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/994/217/14690712499_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/986/167/14784761689_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/347/257/14784752743_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/725/727/14690727527_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/420/868/14730868024_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/420/868/14730868024_1537626798.600x600.jpg" alt=""/>
 					</div>
 					<div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -243,15 +230,15 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/5086.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/731/689/15693986137_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/052/779/15693977250_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/686/359/15693953686_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/904/479/15693974409_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/429/646/15584646924_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/731/689/15693986137_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/052/779/15693977250_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/686/359/15693953686_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/904/479/15693974409_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/429/646/15584646924_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/731/689/15693986137_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/731/689/15693986137_1537626798.600x600.jpg" alt=""/>
 					</div>
 					<div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -270,15 +257,15 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/5080A.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/137/332/15671233731_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/386/646/15623646683_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/005/572/15671275500_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/649/251/15671152946_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/759/949/15733949957_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/137/332/15671233731_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/386/646/15623646683_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/005/572/15671275500_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/649/251/15671152946_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/759/949/15733949957_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/137/332/15671233731_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/137/332/15671233731_1537626798.600x600.jpg" alt=""/>
 					</div>
 					<div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -297,14 +284,14 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/7069.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/625/381/15734183526_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/186/365/15671563681_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/694/665/15671566496_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/568/561/15734165865_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/625/381/15734183526_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/186/365/15671563681_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/694/665/15671566496_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/568/561/15734165865_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/488/102/15734201884_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/488/102/15734201884_1537626798.600x600.jpg" alt=""/>
 					</div>
 					<div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -323,15 +310,15 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/B6335.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/237/878/14866878732_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2019/764/972/10862279467_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2019/339/258/10834852933_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2019/855/672/10862276558_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2019/858/989/10804989858_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/237/878/14866878732_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2019/764/972/10862279467_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2019/339/258/10834852933_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2019/855/672/10862276558_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2019/858/989/10804989858_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/237/878/14866878732_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/237/878/14866878732_1537626798.600x600.jpg" alt=""/>
 					</div>
                     <div class="price">
 					   <div class="cart-left">
@@ -349,15 +336,15 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				 <!--<a href="summer/2020year/q5190703.html">
-				 https://cbu01.alicdn.com/img/ibank/2020/174/070/14837070471_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/666/540/14795045666_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/297/528/14740825792_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/014/135/14691531410_1537626798.400x400.jpg
-				 https://cbu01.alicdn.com/img/ibank/2020/342/735/14691537243_1537626798.400x400.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/174/070/14837070471_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/666/540/14795045666_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/297/528/14740825792_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/014/135/14691531410_1537626798.600x600.jpg
+				 https://cbu01.alicdn.com/img/ibank/2020/342/735/14691537243_1537626798.600x600.jpg
 				 -->
 				 <div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/174/070/14837070471_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/174/070/14837070471_1537626798.600x600.jpg" alt=""/>
 					</div>
 					<div class="sale-box"><span class="on_sale title_shop">New</span></div>	
                     <div class="price">
@@ -377,15 +364,15 @@ hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </scri
 				</div>
 				<div class="col_1_of_3 span_1_of_3">
 				    <!--<a href="summer/2020year/5668.html">
-					https://cbu01.alicdn.com/img/ibank/2020/312/553/14907355213_1537626798.400x400.jpg
-					https://cbu01.alicdn.com/img/ibank/2019/766/996/10922699667_1537626798.400x400.jpg
-					https://cbu01.alicdn.com/img/ibank/2019/851/192/10894291158_1537626798.400x400.jpg
-					https://cbu01.alicdn.com/img/ibank/2019/107/996/10922699701_1537626798.400x400.jpg
-					https://cbu01.alicdn.com/img/ibank/2019/453/551/10864155354_1537626798.400x400.jpg
+					https://cbu01.alicdn.com/img/ibank/2020/312/553/14907355213_1537626798.600x600.jpg
+					https://cbu01.alicdn.com/img/ibank/2019/766/996/10922699667_1537626798.600x600.jpg
+					https://cbu01.alicdn.com/img/ibank/2019/851/192/10894291158_1537626798.600x600.jpg
+					https://cbu01.alicdn.com/img/ibank/2019/107/996/10922699701_1537626798.600x600.jpg
+					https://cbu01.alicdn.com/img/ibank/2019/453/551/10864155354_1537626798.600x600.jpg
 					-->
 					<div class="inner_content clearfix">
 					<div class="product_image">
-						<img src="https://cbu01.alicdn.com/img/ibank/2020/312/553/14907355213_1537626798.400x400.jpg" alt=""/>
+						<img src="https://cbu01.alicdn.com/img/ibank/2020/312/553/14907355213_1537626798.600x600.jpg" alt=""/>
 					</div>
                     <div class="price">
 					   <div class="cart-left">
