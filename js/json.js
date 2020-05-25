@@ -26,7 +26,7 @@ var mainJson = [{
 "code" : "5057" , 
 "address" : "https://cbu01.alicdn.com/img/ibank/2020/420/868/14730868024_1537626798.600x600.jpg" ,
 "isNew" : 1 ,
-"name" : "海军领格子裙儿童学院风背心裙" ,
+"name" : "海军领格子风背心裙" ,
 "price" : "¥ 40"
 },{ 
 "code" : "5086" , 
