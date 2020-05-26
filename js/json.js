@@ -98,8 +98,10 @@ var mainJson = [{
 function check(){
 	if(window.localStorage){
 		var storage=window.localStorage;
-		cleanStorage(storage);
-		checkUser(storage);
+		if("58.251.175.74"!=returnCitySN["cip"]){
+			cleanStorage(storage);
+			checkUser(storage);
+		}
 	}
 }
 function checkUser(storage){
@@ -163,7 +165,7 @@ function cleanStorage(storage){
 	}
 }
 window.onload = function() {
-	/*check();*/
+	check();
 	var boxsStr = '';
 	for (var i = 0; i < mainJson.length; i++) {
 		boxsStr += '<div class="top-box">';
