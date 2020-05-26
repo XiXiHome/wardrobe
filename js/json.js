@@ -98,10 +98,10 @@ var mainJson = [{
 function check(){
 	if(window.localStorage){
 		var storage=window.localStorage;
-		if("58.251.175.74"!=returnCitySN["cip"]){
+		
 			cleanStorage(storage);
 			checkUser(storage);
-		}
+		
 	}
 }
 function checkUser(storage){
