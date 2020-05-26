@@ -95,77 +95,7 @@ var mainJson = [{
 "name" : "彩色菊花连衣裙" ,
 "price" : "¥ 41"
 }]
-function check(){
-	if(window.localStorage){
-		var storage=window.localStorage;
-		
-			cleanStorage(storage);
-			checkUser(storage);
-		
-	}
-}
-function checkUser(storage){
-    var ip = getIpValue();
-	var expires = storage.getItem(ip);
-	if(null!=expires){//*同一个ip第二次进来*/
-		var date = new Date();
-		var difference  = date.getTime() - expires;
-		var fenzhon = Math.floor((difference/1000/60) << 0);
-		if(15<fenzhon){/*超过15分钟，重新加访问次数并更新访问时间*/
-			storage.setItem(ip, date.getTime());
-			count(storage);
-		}
-	}else{/*ip首次进来，加访问次数并添加访问键值对*/
-		count(storage);
-		var date = new Date();
-		storage.setItem(ip, date.getTime());
-	}
-	show(storage);
-}
-/*计算访问次数*/
-function count(storage){
-	var counts = storage.getItem("counts");
-	if(null==counts){
-		storage.setItem("counts", 1);
-	}else{
-		if("888888888888888"==counts){
-			storage.setItem("counts", 1);
-		}else{
-			counts++;
-			storage.setItem("counts", counts);
-		}
-	}
-}
-function show(storage){
-	$("#counts").html('<a>网站当前被访问：'+numFormat(storage.getItem("counts"))+' 次</a>&nbsp;');
-}
-/*添加千位分隔符*/
-function numFormat(num){
-  var res=num.toString().replace(/\d+/, function(n){ // 先提取整数部分
-       return n.replace(/(\d)(?=(\d{3})+$)/g,function($1){
-          return $1+",";
-        });
-  })
-  return res;
-}
-/*IP地址处理*/
-function getIpValue(){
-	var ip = returnCitySN["cip"];
-	var value = ip.replace(/\./g, "");
-	return value;
-}
-/*清理*/
-function cleanStorage(storage){
-	var used = unescape(encodeURIComponent(JSON.stringify(localStorage))).length;
-	var difference= 1024 * 1024 * 5 - used;
-	if(difference<=40000){
-		var counts = storage.getItem("counts");
-		storage.clear();
-		storage.setItem("counts", counts);
-	}
-}
 window.onload = function() {
-	check();
 	var boxsStr = '';
 	for (var i = 0; i < mainJson.length; i++) {
 		boxsStr += '<div class="top-box">';
