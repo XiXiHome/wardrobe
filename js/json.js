@@ -163,7 +163,7 @@ function cleanStorage(storage){
 	}
 }
 window.onload = function() {
-	check();
+	/*check();*/
 	var boxsStr = '';
 	for (var i = 0; i < mainJson.length; i++) {
 		boxsStr += '<div class="top-box">';
